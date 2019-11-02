@@ -4,6 +4,18 @@ function playSound(e){
   if(!audio)
   return ;
   key.classList.add('playing');
+  if(e.keyCode === 32)
+  {
+    //console.log("ya");
+    if(!audio.paused)
+    audio.pause();
+    else {
+
+      audio.currentTime = 0;
+      audio.play();
+    }
+    return;
+  }
   audio.currentTime = 0;
   audio.play();
 }
