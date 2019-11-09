@@ -56,8 +56,44 @@
       background: black;
       position: absolute;
       top: 50%;
+      transform-origin: 100%;
+      transform: rotate(90deg);
+      transition: all 0.005s;
+    }
+    .min-hand{
+      background : red;
+    }
+
+    .hour-hand{
+      background : yellow;
     }
   </style>
 
+  <script type="text/javascript">
+  const sec = document.querySelector('.second-hand');
+
+  const min = document.querySelector('.min-hand');
+
+  const hour = document.querySelector('.hour-hand');
+
+  function set(){
+    const now = new Date();
+    const csec = now.getSeconds();
+    const cmin = now.getMinutes();
+    const chour = now.getHours();
+
+    const secDeg = ((csec/60) *360 + 90);
+    const minDeg = ((cmin/60) *360 + 90);
+    const hourDeg = ((chour/12) *360 + 90 );
+
+    sec.style.transform = `rotate(${secDeg}deg)`;
+    min.style.transform = `rotate(${minDeg}deg)`;
+    hour.style.transform = `rotate(${hourDeg}deg)`;
+  }
+
+ setInterval(set, 1000);
+
+  set();
+  </script>
   </body>
 </html>
