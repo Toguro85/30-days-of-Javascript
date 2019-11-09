@@ -2,3 +2,4 @@
 Practicing vanilla js by implementing 30 projects.
 
 1. <a href="https://toguro85.github.io/30-days-of-Javascript/01-Javascript-Drum-Kit/index.html">Javascript-Drum-Kit</a>
+2. <a href="https://toguro85.github.io/30-days-of-Javascript/02-Js-Clock/index.html">Js-Clock</a>
