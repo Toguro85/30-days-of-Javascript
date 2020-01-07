@@ -13,3 +13,7 @@ Practicing vanilla js by implementing 30 projects.
 10. <a href="https://toguro85.github.io/30-days-of-Javascript/10-check-multiple-checkboxes/index.html">Check-multiple-checkboxes</a>
 11. <a href="https://toguro85.github.io/30-days-of-Javascript/11-html5-custom-video-player/index.html">HTML5-custom-video-player</a>
 12. <a href="https://toguro85.github.io/30-days-of-Javascript/12-key-sequence-detection/index.html">Key-sequence-detection</a>
+13. <a href="https://toguro85.github.io/30-days-of-Javascript/13-Slide-in-on-scroll/index.html">Slide-in-on-scroll</a>
+14. <a href="https://toguro85.github.io/30-days-of-Javascript/14-Reference-vs-copy/index.html">Reference-vs-copy</a>
+15. <a href="https://toguro85.github.io/30-days-of-Javascript/15-Local-storage/index.html">Local-storage</a>
+16. <a href="https://toguro85.github.io/30-days-of-Javascript/16-mouse-move-shadow/index.html">Mouse-move-shadow</a>
